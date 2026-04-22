@@ -422,7 +422,7 @@ static int draw_game_over(Game *game){
 
         attron(COLOR_PAIR(COL_TITLE) | A_BOLD);
         mvprintw(y, x - 12, "--- HIGH SCORE TABLE ---");
-        mvprintw(y + 1, x - 16, "%s  EASY  NORMAL  HARD", "");
+        mvprintw(y + 1, x - 6, "%s  EASY  NORMAL  HARD", "");
         attroff(COLOR_PAIR(COL_TITLE) | A_BOLD);
 
         for (int i = 0; i < MAPS; i++){
