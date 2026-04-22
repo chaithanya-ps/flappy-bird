@@ -579,7 +579,7 @@ static void menu(){
         attroff(COLOR_PAIR(COL_TITLE) | A_BOLD);
 
         attron(COLOR_PAIR(COL_BACKGROUND));
-        mvprintw(y + 13, x - 16, "SPACE / W / UP  -  Flap");
+        mvprintw(y + 13, x - 16, "SPACE  -  Flap");
         mvprintw(y + 14, x - 16, "P / R / Q -  Pause / Restart / Quit");
         attroff(COLOR_PAIR(COL_BACKGROUND));
  
