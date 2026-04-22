@@ -17,7 +17,7 @@ To **run** the game:
 ```bash
 ./game
 ```
-About the game:
+##About the game:
 
 This is a remake of the very infamous and old video game FLAPPY BIRD.  
 This code can only be run on a Linux Terminal as it uses the terminal as the interface and code is Linux specific.  
